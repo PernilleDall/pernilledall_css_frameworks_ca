@@ -1,0 +1,20 @@
+
+.main-container {
+    background: linear-gradient(180deg, #5C9553 0%, #153C0E 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    border-radius: 3px;
+background: rgba(255, 255, 255, 0.51);
+padding:10px;
+}
+form {
+    width: 60vw;
+}
+h1, h3 {
+    color: #303030;
+}
