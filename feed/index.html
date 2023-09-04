@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/css/style.css">
+    <script defer src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light justify-content-between">
+        <div class="logo col px-3">
+            <svg width="37" height="34" viewBox="0 0 37 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M7.276 0C8.17731 0 9.7942 0.282641 9.7942 2.53407C9.7942 4.78549 8.1937 5.65143 7.276 5.65143C6.35831 5.65143 4.95036 4.76748 4.95036 2.53407C4.95036 0.299266 6.4976 0 7.276 0ZM2.32564 2.82641C3.22695 2.82641 4.84384 3.10766 4.84384 5.35909C4.84384 7.61051 3.24334 8.47645 2.32564 8.47645C1.40795 8.47645 0 7.59389 0 5.35909C0 3.12567 1.54724 2.82641 2.32564 2.82641ZM15.7688 2.53407C15.7688 0.282641 14.1519 0.00138539 13.2506 0.00138539C12.4722 0.00138539 10.9249 0.299266 10.9249 2.53407C10.9249 4.76748 12.3329 5.65143 13.2506 5.65143C14.1683 5.65143 15.7688 4.78549 15.7688 2.53407ZM18.0944 2.82641C18.9957 2.82641 20.6126 3.10766 20.6126 5.35909C20.6126 7.61051 19.0121 8.47645 18.0944 8.47645C17.1767 8.47645 15.7688 7.59389 15.7688 5.35909C15.7688 3.12567 17.316 2.82641 18.0944 2.82641ZM17.1125 13.8674C17.1125 9.81899 14.5315 6.31231 10.3063 6.31231C6.08109 6.31231 3.54241 9.7317 3.54241 13.8674C3.54241 17.309 7.586 17.309 10.2967 17.309H10.3063C13.3148 17.309 17.1125 17.2009 17.1125 13.8674ZM18.713 19.5174C19.6143 19.5174 21.2312 19.7987 21.2312 22.0501C21.2312 24.3015 19.6307 25.1675 18.713 25.1675C17.7953 25.1675 16.3874 24.2835 16.3874 22.0501C16.3874 19.8153 17.9346 19.5174 18.713 19.5174ZM26.1816 19.2251C26.1816 16.9737 24.5647 16.6924 23.6634 16.6924C22.885 16.6924 21.3377 16.9903 21.3377 19.2251C21.3377 21.4585 22.7457 22.3425 23.6634 22.3425C24.5811 22.3425 26.1816 21.4765 26.1816 19.2251ZM29.638 16.6924C30.5393 16.6924 32.1562 16.9737 32.1562 19.2251C32.1562 21.4765 30.5557 22.3425 29.638 22.3425C28.7203 22.3425 27.3123 21.4585 27.3123 19.2251C27.3123 16.9903 28.8596 16.6924 29.638 16.6924ZM37 22.0501C37 19.7987 35.3831 19.5174 34.4818 19.5174C33.7034 19.5174 32.1562 19.8153 32.1562 22.0501C32.1562 24.2835 33.5641 25.1675 34.4818 25.1675C35.3995 25.1675 37 24.3015 37 22.0501ZM26.6937 23.0033C30.9189 23.0033 33.4999 26.5086 33.4999 30.5584C33.4999 33.8919 29.7035 34 26.6937 34H26.6828C23.9734 34 19.9298 34 19.9298 30.5584C19.9298 26.4227 22.4698 23.0033 26.6937 23.0033Z"
+                    fill="#000000" />
+            </svg>
+            <a class="navbar-brand px-2">PAWS</a>
+        </div>
+        <div class="dropdown">
+            <button class="btn col-lg-12 btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Find other users
+            </button>
+            <ul class="dropdown-menu">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+
+                    <button class="btn btn-primary">Search</button>
+                </div>
+
+            </ul>
+        </div>
+
+    </nav>
+    <hr class="border-5 border-primary">
+    <div class="button d-flex px-5 justify-content-between">
+        <button class="btn btn-primary rounded-pill p-3 shadow" type="button">Create a new
+            post</button>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle rounded-pill p-3 shadow" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Sort
+            </button>
+            <ul class="dropdown-menu">
+
+                <li><button class="dropdown-item" type="button">Action</button></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="container py-5 d-flex justify-content-center">
+        <div class="posts d-flex flex-column">
+            <div class="username">
+                <h1 class="username fs-6 text-decoration-underline fw-bold">NillePille321</h1>
+            </div>
+            <div class="img-container"> <img src="/src/img/tired.jpeg"
+                    class="img-thumbnail .d-flex justify-content-center align-items-center">
+            </div>
+            <div class="icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-chat-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-share-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z" />
+                </svg>
+            </div>
+            <div class="comment d-flex flex-row">
+                <p class="fw-bold me-1">NillePille321</p>
+                <p class="fw-light">So heckin tired these days...zzZZZzZZ!</p>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class="posts d-flex flex-column">
+            <div class="username">
+                <h1 class="username fs-6 text-decoration-underline fw-bold">BellaLille</h1>
+            </div>
+            <div class="img-container"> <img src="/src/img/roadtrip.jpeg"
+                    class="img-thumbnail .d-flex justify-content-center align-items-center">
+            </div>
+            <div class="icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-chat-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-share-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z" />
+                </svg>
+            </div>
+            <div class="comment d-flex flex-row">
+                <p class="fw-bold me-1">BellaLille</p>
+                <p class="fw-light">Roadtrip with the bestie!!</p>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class="posts d-flex flex-column">
+            <div class="username">
+                <h1 class="username fs-6 text-decoration-underline fw-bold">NillePille321</h1>
+            </div>
+            <div class="img-container"> <img src="/src/img/funatthecabin.jpeg"
+                    class="img-thumbnail .d-flex justify-content-center align-items-center">
+            </div>
+            <div class="icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-chat-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-share-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z" />
+                </svg>
+            </div>
+            <div class="comment d-flex flex-row">
+                <p class="fw-bold me-1">NillePille321</p>
+                <p class="fw-light">Good times at the cabin!</p>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container bg-primary">
+        <footer class="row d-flex justify-content-between py-3">
+
+            <div class="col mb-3 d-flex justify-content-center">
+                <h5>Create new post</h5>
+                <ul class="nav flex-column">
+
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+
+            </div>
+
+            <div class="col mb-3 d-flex justify-content-center">
+                <h5>Go to profile</h5>
+                <ul class="nav flex-column">
+
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
